@@ -1,0 +1,27 @@
+{
+  "name": "faceplate-orchestrator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@octokit/auth-app": "^8.2.0",
+    "@octokit/rest": "^22.0.1",
+    "aws-sdk": "^2.1693.0",
+    "axios": "^1.13.5",
+    "body-parser": "^2.2.2",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "libsodium-wrappers": "^0.8.2",
+    "nodemon": "^3.1.11",
+    "simple-git": "^3.31.1"
+  }
+}
